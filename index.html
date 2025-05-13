@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Mitt personliga CV och portfolio som Javautvecklare" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Mohammed</h1>
+    <nav>
+      <ul>
+        <li><a href="#intro">Om mig</a></li>
+        <li><a href="#utbildning">Utbildning</a></li>
+        <li><a href="#projekt">Projekt</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="intro">
+      <h2>Hej!</h2>
+      <p>Jag är en driven och nyfiken person som gillar att bygga moderna webbapplikationer och testa system med hög kvalitet.</p>
+    </section>
+
+    <section id="utbildning">
+      <h2>Utbildning & Färdigheter</h2>
+      <ul>
+        <li>YH Javautvecklare - Teknikhögskolan, 2024-2026 (student)</li>
+        <li>Erfarenhet av: Java, Spring Boot, SQL, HTML, CSS, JavaScript, Git</li>
+      </ul>
+    </section>
+
+    <section id="projekt">
+      <h2>Projekt & Erfarenhet</h2>
+      <div class="project">
+        <h3>Skolprojekt: Bibilotek</h3>
+        <p>Ett Java-projekt där man kunde lägga till och söka böcker.</p>
+        <button onclick="toggleInfo(this)">Visa mer</button>
+        <div class="extra-info" style="display:none;">
+          <p>Användes: Spring Boot, SQL, Database</p>
+        </div>
+      </div>
+    </section>
+
+<section id="kontakt">
+  <h2>Kontakt</h2>
+
+  <div class="kontaktinfo">
+    <p><strong>E-post:</strong> <a href="mailto:dittnamn@email.com">Akgunmohammed1@email.com</a></p>
+    <p><strong>Telefon:</strong> <a href="tel:+46701234567">0722 58 97 05</a></p>
+  </div>
+
+  <form id="kontaktformulär">
+    <label for="namn">Namn:</label>
+    <input type="text" id="namn" required />
+
+    <label for="epost">E-post:</label>
+    <input type="email" id="epost" required />
+
+    <label for="meddelande">Meddelande:</label>
+    <textarea id="meddelande" required></textarea>
+
+    <button type="submit">Skicka</button>
+  </form>
+</section>
+
+
+   
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mohammed Akgun</p>
+     <a href="https://mail.google.com" target="_blank">Gmail</a>    <a href="https://github.com" target="_blank">GitHub</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
